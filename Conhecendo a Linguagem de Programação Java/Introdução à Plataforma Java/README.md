@@ -1,9 +1,19 @@
 # Java Básico
-Principais fundamentos
-Instrutor do Curso: Gleyson Sampaio
+<p>Principais fundamentos</p>
+<p>Instrutor do Curso: Gleyson Sampaio</p>
 
-## Aulas
-[ ] Aula 1 Java Fundamentos
+## Índice
+- [Java Fundamentos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#java-fundamentos)
+  - [Simples](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#simples)
+  - [Orientada a Objetos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#orientada-a-objeto)
+  - [Plataforma independente](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#plataforma-independente)
+  - [Portátil](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#port%C3%A1til)
+  - [Robusta](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#robusta)
+  - [Segurança](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#seguran%C3%A7a)
+  - [Interpretada](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#interpretada)
+  - [Multi-thread](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#multi-thread)
+- [Java e Sua História](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#java-e-sua-hist%C3%B3ria)
+  - [Java é agora utilizada  praticamente em todo lugar](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#java-%C3%A9-agora-utilizada-praticamente-em-todo-lugar)
 
 ### Java Fundamentos
 <p>A Linguagem Java é composta por conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.</p>
@@ -15,6 +25,7 @@ Instrutor do Curso: Gleyson Sampaio
 #### Orientada a Objeto
   <p>Java é uma linguagem de Programação Orientada a Objetos. Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.</p>
   <p>Para começar a desenvolver softwares de forma consistente com Java, é necesário compreeder os ppilares da Programação Orientada a Objetos (POO). Eles são:</p>
+
   1. Classe e Objeto
   2. Encapsulamento
   3. Abstração
@@ -30,6 +41,7 @@ Instrutor do Curso: Gleyson Sampaio
 
 #### Robusta
   <p>A linguagem de programação Java é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa.</p>
+
   - Ele usa um gerenciamento de memória forte.
   - Java fornece coleta de lixo automática.
   - Há tratamento de exceção e mecanismo de verificação de tipo em Java.
