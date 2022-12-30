@@ -19,7 +19,7 @@
 <p>A Linguagem Java é composta por conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.</p>
 <p>Abaixo iremos explorar algumas funcionalidades essenciais para o engajamento com a linguagem:</p>
 
-#### Simples
+#### :coffee: Simples
   <p>Java é uma linguagem de programação simples e fácil de entender, pois não contem complexidades que existiam em linguagens de programação anteriores. Na verdade, a simplicidade er o objetivo do design dos povos Javasoft, porque ele tem que funcionar em dispositivos eletrônicos onde menos memória/recursoos estão disponíveis.</p>
 
 #### Orientada a Objeto
