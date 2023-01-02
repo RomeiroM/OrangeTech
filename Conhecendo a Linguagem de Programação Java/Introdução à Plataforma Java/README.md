@@ -1,6 +1,6 @@
 # Java Básico :coffee:
 <p>Principais fundamentos</p>
-<p>Instrutor do Curso: Gleyson Sampaio</p>
+<p>Instrutor do Curso: <a href="https://glysns.gitbook.io/java/">Gleyson Sampaio</a></p>
 
 ## :book: Índice
 - [Java Fundamentos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-java-fundamentos)
@@ -66,3 +66,52 @@
 - Aplicações corporativas de grande porte;
 - Softwares destinados ao consumidor final;
 - Aplicativos para Smartphones.
+
+### :coffee: Escolha sua IDE
+<p>Para aumentar nossa produtividade, nós podemos escolher algumas ferramentas denominadas de IDE - Integrated Development Environment ou Ambiente de Desenvolvimento Integrado. É um software que dispõe de recursos que auxiliam muito nosso desenvolvimento como:</p>
+
+- Aceleração de nossa escrita com Auto-complete ou IntelliSense
+- Formatação de palavras e blocos de códigos
+- Análise de erro sintaxe
+- Compilação de programa
+- Depuração (acompanhamento) de execução do programa.
+
+<p>Cada IDE dispõe de recursos comuns ou plugins específicos para auxiliar na agilidade de desenvolvimento.</p>
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [NetBeans IDE](https://netbeans.apache.org/)
+- [eclipse](https://www.eclipse.org/downloads/)
+- [IntelliJ IDE](https://www.jetbrains.com/pt-br/idea/)
+
+#### :dart: Eclise
+
+<p> O <a href="https://www.eclipse.org/downloads/"> Eclipse IDE </a> é uma alternativa muito comum de encontrar ambientes de desenvolvimento, principalmente pelo aspecto de uma interface simples, plugins para recursos adicionais, atalhos para operações de menu e de escrita e para quem trabalha com Java Swing você pode adicionar o plugin WindowBuilder que dispõe de uma interface gráfica para criar as telas gerando o código de layout para o desenvolvedor.</p>
+
+#### :dart: IntelliJ
+<p>O <a href="https://www.jetbrains.com/pt-br/idea/">IntelliJ</a> é uma plataforma de código aberto para criação de IDEs e ferramentas para desenvolvedores, mas nem todos os recursos estão disponíveis de forma gratuita.</p>
+<p>Mesmo com a proposta de ser inteligente, talves em um primeiro contato, é difícil já desfrutar de todos os recursos, fazendo com que você opte por mudar ou voltar para uma IDE como o Eclipse. Claro que não podemos deixar de destacar que muitas coisas a gente não precisa como: Salvar arquivo, esconde padrão UTF-8  e sugestões que vão surgindo ao longo da nossa interação com a ferramenta.</p>
+
+#### :dart: Visual Studio Code
+
+<p>Desenvolvido pela Microsoft, é um editor de texto muito simples e interativo que conta com inúmeras extensões, temas variados e integração com tecnologias como NodeJS e Java.</p>
+<p>Comparando-se em performace, o <a href="https://code.visualstudio.com/">VS Code</a> demostra um grande desempenho de inicialização, codificação e execução dos programas desenvolvidos.</br>Resumindo:</p>
+
+- **Eclipse**: Mais utilizada no ambiente corporativo com interface bem interativa.
+- **NetBeans**: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
+- **IntelliJ**: Oferece muitos recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
+- **VS Code**: Hoje muito utilizada por desenvolvedores que já atuam com NodeJS ou plataformas de front-end.
+
+##### Atalhos
+
+Todas as IDEs possuem combinações de comandos que são facilitadores para criação de arquivos, digitação de códigos, localização e execução das classes em nosso programa, além de comandos já pré-definidos de linhas de código (code snippet).
+
+<ha-alert alert-type="info"> **Code Snippets**, numa tradução livre seria algo como "retalhos de código", são pedaços de código pré-fabricados e padronizáveis que ppodemos inserir em nossa aplicação. </ha-alert>
+
+Comando | Eclipse | IntelliJ
+:--------:| :-------: | :-------: |
+Criando o médodo principal main | main, ctrl+espaço, enter | psvm
+Localiza recurso \ arquivo | ctrl+shift+R | ctrl+shift+N
+Método de impressão no Console | Sysout, ctrl+espaço | sout
+Renomeando variável ou método | alt+shift+R | shift+F6
+Localizar a utilização de um método | ctrl+shift+G | alt+F7
+Entrada | ctrl+click | ctrl+click
