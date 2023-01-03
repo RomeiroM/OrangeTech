@@ -15,25 +15,25 @@
   - [Multi-thread](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-multi-thread)
 - [Java e Sua História](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-java-e-sua-hist%C3%B3ria)
   - [Java é agora utilizada  praticamente em todo lugar](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-java-%C3%A9-agora-utilizada-praticamente-em-todo-lugar)
-    - Características dde cada versão
-- Plataformas
-  - Plataformas da linguagem Java
-  - Componentes da plataforma
-    - JDK (Java Development Kit) - Kit de Desenvolvimento Java
-    - JRE (Java Runtime Environment) - Ambiente de Execução Java
-    - Processo de desenvolvimento
-    - JVM - Java Virtual Machine
+    - [Características de cada versão](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#pushpin-caracter%C3%ADsticas-de-cada-vers%C3%A3o)
+- [Plataformas](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-plataformas)
+  - [Plataformas da linguagem Java](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-plataformas-da-linguagem-java)
+  - [Componentes da plataforma](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-componentes-da-plataforma)
+    - [JDK (Java Development Kit) - Kit de Desenvolvimento Java](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#pushpin-jdk-java-development-kit---kit-de-desenvolvimento-java)
+    - [JRE (Java Runtime Environment) - Ambiente de Execução Java](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#pushpin-jre-java-runtime-environment---ambiente-de-execu%C3%A7%C3%A3o-java)
+    - [Processo de desenvolvimento](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#pushpin-processo-de-desenvolvimento)
+    - [JVM - Java Virtual Machine](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#pushpin-jvm---java-virtual-machine)
 - [Escolha sua IDE](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-escolha-sua-ide)
   - [Eclipse](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-eclise)
   - [IntelliJ](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-intellij)
   - [Visual Studio Code](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-visual-studio-code)
   - [Atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-atalhos)
     - [Comparação de alguns atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#compara%C3%A7%C3%A3o-de-alguns-atalhos)
-- Instalação
-  - Instalando o VSCode
-  - Instalando o Eclipse
-  - IntelliJ IDEA
-- [Links Referências](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#links-refer%C3%AAncias)
+- [Instalação](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#wrench-instala%C3%A7%C3%A3o)
+  - [Instalando o VSCode](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#computer-instalando-o-vscode)
+  - [Instalando o Eclipse](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#computer-instalando-o-eclipse)
+  - [IntelliJ IDEA](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#computer-intellij-idea)
+- [Links Referências](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#calling-links-refer%C3%AAncias)
 
 ## :coffee: Java Fundamentos
 
