@@ -14,11 +14,13 @@
   - [Multi-thread](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-multi-thread)
 - [Java e Sua História](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-java-e-sua-hist%C3%B3ria)
   - [Java é agora utilizada  praticamente em todo lugar](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-java-%C3%A9-agora-utilizada-praticamente-em-todo-lugar)
-- [Escolha sua IDE]()
-  - [Eclipse]()
-  - [IntelliJ]()
-  - [Visual Studio Code]()
-    - [Atalhos]()
+- [Escolha sua IDE](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-escolha-sua-ide)
+  - [Eclipse](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-eclise)
+  - [IntelliJ](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-intellij)
+  - [Visual Studio Code](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-visual-studio-code)
+  - [Atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-atalhos)
+    - [Comparação de alguns atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#compara%C3%A7%C3%A3o-de-alguns-atalhos)
+- [Links Referências](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#links-refer%C3%AAncias)
 
 ## :coffee: Java Fundamentos
 <p>A Linguagem Java é composta por conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.</p>
@@ -31,11 +33,11 @@
   <p>Java é uma linguagem de Programação Orientada a Objetos. Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.</p>
   <p>Para começar a desenvolver softwares de forma consistente com Java, é necesário compreeder os ppilares da Programação Orientada a Objetos (POO). Eles são:</p>
 
-  1. Classe e Objeto
-  2. Encapsulamento
-  3. Abstração
-  4. Herança
-  5. Polimorfismo
+  - Classe e Objeto
+  - Encapsulamento
+  - Abstração
+  - Herança
+  - Polimorfismo
    
 ### :dart: Plataforma independente
   <p>O objetivo de design do javasoft people é desenvolder uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado.</p>
@@ -122,7 +124,26 @@ Renomeando variável ou método | alt+shift+R | shift+F6
 Localizar a utilização de um método | ctrl+shift+G | alt+F7
 Entrada | ctrl+click | ctrl+click
 
+## Instalação
+
+### Instalando o VSCode
+
+- [Download do pacote Java do VSCode](https://code.visualstudio.com/docs/languages/java)
+
+_**Obs.:** Não tem problema se já estiver o VSCode intalado na sua máquina, o pacote verifica o que já está presente na máquina e faz o download do que falta_
+
+### Instalando o Eclipse
+
+- [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) 
+- [Eclipse](https://www.eclipse.org/downloads/)
+
+### IntelliJ IDEA
+
+- [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) 
+- [InntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows)
+
+
 ## Links Referências
 
-- [Java Básico](https://glysns.gitbook.io/java-basico/)
-- [Java + VSCode](https://youtu.be/vim1bTa-Bkc)
+- [Java Básico](https://glysns.gitbook.io/java-basico/) - Conteúdo completo sobre Java Básico.
+- [Java + VSCode](https://youtu.be/vim1bTa-Bkc) - Vídeo do YouTube com o passo a passo da instalação do VSCode + Java.
