@@ -15,12 +15,24 @@
   - [Multi-thread](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-multi-thread)
 - [Java e Sua História](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-java-e-sua-hist%C3%B3ria)
   - [Java é agora utilizada  praticamente em todo lugar](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-java-%C3%A9-agora-utilizada-praticamente-em-todo-lugar)
+    - Características dde cada versão
+- Plataformas
+  - Plataformas da linguagem Java
+  - Componentes da plataforma
+    - JDK (Java Development Kit) - Kit de Desenvolvimento Java
+    - JRE (Java Runtime Environment) - Ambiente de Execução Java
+    - Processo de desenvolvimento
+    - JVM - Java Virtual Machine
 - [Escolha sua IDE](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#coffee-escolha-sua-ide)
   - [Eclipse](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-eclise)
   - [IntelliJ](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-intellij)
   - [Visual Studio Code](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#dart-visual-studio-code)
   - [Atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#memo-atalhos)
     - [Comparação de alguns atalhos](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#compara%C3%A7%C3%A3o-de-alguns-atalhos)
+- Instalação
+  - Instalando o VSCode
+  - Instalando o Eclipse
+  - IntelliJ IDEA
 - [Links Referências](https://github.com/RomeiroM/OrangeTech/tree/master/Conhecendo%20a%20Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java/Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java#links-refer%C3%AAncias)
 
 ## :coffee: Java Fundamentos
@@ -86,7 +98,7 @@
 - Softwares destinados ao consumidor final;
 - Aplicativos para Smartphones.
 
-#### Características de cada versão
+#### :pushpin: Características de cada versão
 
 Versão | Data | Recurso
 :----: | :--: | :---:
@@ -114,7 +126,7 @@ JAVA SSE 17 LST | Setembro de 2021 | Entre os novos recursos da nova versão do 
 <p> Com a linguagem Java, conseguimos desenvolver softwares para várias finalidades de negócio. Seja uma aplicação desktop, uma distribuição web, eletrônicos e dispositivos móveis.</p>
 <p>Isso graças a distribuição dos recursos da linguagem, através de plataformas bem estruturadas.</p>
 
-### Plataformas da linguagem Java
+### :dart: Plataformas da linguagem Java
 
 <p>A linguagem Java conta com quatro ambientes de desenvolvimento:</p>
 
@@ -123,30 +135,30 @@ JAVA SSE 17 LST | Setembro de 2021 | Entre os novos recursos da nova versão do 
 - **JME (Java Micro Edition):**  É a edição para o desenvolvimento de aplicações para dispositivos móveis e embarcados.
 - **JFX (Java FX):** JavaFX é uma tecnologia de software que, ao ser combinada com Java, permite a criação e implantação de aplicações de aparência moderna e conteúdo rico de áudio e vídeo.
 
-### Componentes da plataforma
+### :dart: Componentes da plataforma
 
 <p>Agora que já sabemos que podemos desenvolver para vários cenários de negócio, é hora de conhecer as ferramentas de desenvolvimento da linguagem:</p>
 <p>O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE). Isso significa que, para desenvolver aplicações, é necessário ter instalado o JDK. Mas para apenas iniciar o executável (.jar), simplesmente a instalação da JRE será o suficiente.</p>
 
-#### JDK (Java Development Kit) - Kit de Desenvolvimento Java
+#### :pushpin: JDK (Java Development Kit) - Kit de Desenvolvimento Java
 
 - Composto pelo compilador (javac + JVM);
 - Visualizador de applets, bibliotecas de desenvolvimento;
 - Programa para composição de documentação (javadoc);
 - Depurador básico de programas e versão da JRE.
 
-#### JRE (Java Runtime Environment) - Ambiente de Execução Java
+#### :pushpin: JRE (Java Runtime Environment) - Ambiente de Execução Java
 
 - É composta de uma JVM e por um conjunto de bibliotecas, que permite a execução de softwares em Java;
 - Apenas permite a execução de programas, ou seja, é necessário o programa Java compilado pela JDK gerando os arquivos **.class**.
 
-#### Processo de desenvolvimento
+#### :pushpin: Processo de desenvolvimento
 
 - Todo código-fonte escrito em arquivo texto possui extensão .java;
 - Este arquivo é compilado com o javac gerando o arquivo .class;
 - O arquivo .class não contém código de máquina nativo, e sim o bytecodes.
 
-#### JVM - Java Virtual Machine
+#### :pushpin: JVM - Java Virtual Machine
 
 <p>Máquina virtual Java (em inglês: Java Virtual Machine, JVM) é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados.</p>
 <p>Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim, essas aplicações independentes da plataforma onde funcionam.</p>
@@ -192,7 +204,7 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 
 <ha-alert alert-type="info"> _**Code Snippets**, numa tradução livre seria algo como "retalhos de código", são pedaços de código pré-fabricados e padronizáveis que ppodemos inserir em nossa aplicação._ </ha-alert>
 
-#### Comparação de alguns atalhos
+#### :pushpin: Comparação de alguns atalhos
 Comando | Eclipse | IntelliJ
 :--------:| :-------: | :-------: |
 Criando o médodo principal main | main, ctrl+espaço, enter | psvm
@@ -202,26 +214,25 @@ Renomeando variável ou método | alt+shift+R | shift+F6
 Localizar a utilização de um método | ctrl+shift+G | alt+F7
 Entrada | ctrl+click | ctrl+click
 
-## Instalação
+## :wrench: Instalação
 
-### Instalando o VSCode
+### :computer: Instalando o VSCode
 
 - [Download do pacote Java do VSCode](https://code.visualstudio.com/docs/languages/java)
 
 _**Obs.:** Não tem problema se já estiver o VSCode intalado na sua máquina, o pacote verifica o que já está presente na máquina e faz o download do que falta_
 
-### Instalando o Eclipse
+### :computer: Instalando o Eclipse
 
 - [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) 
 - [Eclipse](https://www.eclipse.org/downloads/)
 
-### IntelliJ IDEA
+### :computer: IntelliJ IDEA
 
 - [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) 
 - [InntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows)
 
-
-## Links Referências
+## :calling: Links Referências
 
 - [Java Básico](https://glysns.gitbook.io/java-basico/) - Conteúdo completo sobre Java Básico.
 - [Java + VSCode](https://youtu.be/vim1bTa-Bkc) - Vídeo do YouTube com o passo a passo da instalação do VSCode + Java.
