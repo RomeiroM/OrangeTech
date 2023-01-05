@@ -274,3 +274,314 @@ public class ExemploVariavel {
 	}
 }
 ~~~~
+
+## Operadores
+
+<p>Símbolos especiais, que tem um significado próprio para a linguagem e estão associados a determinadas operações.</p>
+
+Operador | Comparação
+:------: | :--------:
+== | Igual
+!= | Diferente
+< | Menor
+_>_ | Maior
+<= | Menor Igual
+_>=_ | Maior Igual
+
+### Classificação dos Operadores
+
+#### **Atribuição**
+
+<p>Representado pelo símbolo de igualdade "=".
+O operador de atribuição é utilizado para definir o valor inicial ou sobrescrever o valor de uma variável. em Java, definimos um tipo, nome e opcionalmente atribuímos um valor à variável através do operador de atribuição. Exemplos abaixo:</p>
+
+~~~~java
+//classe Operadores.java
+String nome = "FULANO";
+int idade = 27;
+double peso = 70.2;
+char sexo = 'M';
+boolean doadorOrgao = true;
+Date dataNascimento = new Date();
+~~~~
+
+#### **Aritméticos**
+
+<p>O operador aritmético, é utilizado para realizar operações matemáticas entre valores numéricos, podendo se tornar ou não uma expressão mais complexa.</p>
+
+Simbolo | significado
+:-----: | :--------:
++ | adição
+- | subtração
+* | multiplicação
+/ | divisão
+
+_ATENÇÃO! O operador de adição (+), quando utilizado em variáveis do tipo texto, realizará a “concatenação de textos”._
+
+#### **Unários**
+
+<p>Esses operadores, são aplicados juntamente com um outro operador aritmético. Eles realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos e booleanos.</p>
+
+- (+) **Operador unário de valor positivo** – números são positivos sem esse operador explicitamente;
+- (-) **Operador unário de valor negativo** – nega um número ou expressão aritmética;
+- (++) **Operador unário de incremento de valor** – incrementa o valor em 1 unidade;
+- (--) **Operador unário de decremento de valor** – decrementa o valor em 1 unidade;
+- (!) **Operador unário lógico de negação** – nega o valor de uma expressão booleana.
+
+#### **Ternário**
+
+<p>O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária, como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
+O operador ternário é representado pelos símbolos "?" e ":" utilizados na seguinte estrutura de sintaxe:</p>
+
+~~~~java
+// classe Operadores.java
+int a, b;
+
+a = 5;
+b = 6;
+
+/* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+if(a==b)
+   resultado = "verdadeiro";
+else
+   resultado = "falso";
+*/
+
+//MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
+String resultado = (a==b) ? "verdadeiro" : "false";
+
+System.out.println(valor);
+~~~~
+
+#### **Relacionais**
+
+<p>Os operadores relacionais, avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior, maior ou igual ao da direita, retornando um valor booleano como resultado.</p>
+
+- == Quando desejamos verificar se uma variável é IGUAL A outra.
+- != Quando desejamos verificar se uma variável é DIFERENTE da outra.
+- ">" Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+- ">=" Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+- < Quando desejamos verificar se uma variável é MENOR QUE outra.
+- <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+##### **Comparações avançadas**
+
+<p>Quando se refere a comparação de conteúdos na linguagem, devemos ter um certo domínio, de como o Java trata o armazenamento destes valores na memória.</p>
+
+_Quando estiver mais familiarizado com a linguagem, recomendamos se aprofundar no conceito de espaço em memória Stack versus Heap._
+
+~~~~java
+// ComparacaoAvancada.java
+public static void main(String[] args) {
+
+        String nome1 = "JAVA";
+        String nome2 = "JAVA";
+        
+        System.out.println(nome1 == nome2); //true
+
+        String nome3 = new String("JAVA");
+        
+        System.out.println(nome1 == nome3); //false
+
+        String nome4 = nome3;
+
+        System.out.println(nome3 == nome4); //true
+        
+        //equals na parada
+        System.out.println(nome1.equals(nome2)); //??
+        System.out.println(nome2.equals(nome3)); //??
+        System.out.println(nome3.equals(nome4)); //??
+
+    }
+~~~~
+
+<p>== versus equals: Existe uma relevância forte, em realizar comparações com == e equals na qual precisamos ter uma compreensão de quais as regras seguidas pela linguagem **** , exemplo:</p>
+
+~~~~java
+// ComparacaoAvancada.java
+ public static void main(String[] args) {
+        
+        int numero1 = 130;
+        int numero2 = 130;
+        System.out.println(numero1 == numero2); //true
+        
+        Integer numero1 = 130;
+        Integer numero2 = 130;
+
+        System.out.println(numero1 == numero2); //false
+        
+        // A razão pela qual o resultado é false, é devido o Java tratar os valores
+        // Como objetos a partir de agora.
+        // Qual a solução ?
+        // Quando queremos comparar objetos, usamos o método equals
+        
+         System.out.println(numero1.equals(numero2)); 
+ }
+~~~~
+
+#### **Lógicos**
+
+<p>Os operadores lógicos, representam o recurso que nos permite criar expressões lógicas maiores, a partir da junção de duas ou mais expressões.</p>
+
+- && Operador Lógico "E"
+- || Operador Lógico "OU"
+
+~~~~java
+// Operadores.java
+boolean condicao1=true;
+
+boolean condicao2=false;
+
+/* Aqui estamos utilizando o operador lógico E para fazer a união de duas 
+expressões. 
+É como se estivesse escrito:
+ "Se Condicao1 e Condicao2 forem verdadeiras, executar código"
+*/
+
+if(condicao1 && condicao2)
+	System.out.print("Os dois valores precisam ser verdadeiros");;
+
+//Se condicao1 OU condicao2 for verdadeira, executar código.
+if(condicao1 || condicao2)
+	System.out.print("Um dos valores precisa ser verdadeiro");
+~~~~
+
+##### **Expressões lógicas avançadas**
+
+<p>Nós acabamos de aprender que existem os operadores lógicos "&"(E) e "||" (OU), mas por que no exemplo acima, foram ilustradas as condições:</br>
+if (condicao1 && condicao2) e if(condicao1 || condicao2) ?</p>
+
+_A duplicidade nos operadores lógicos é um recurso conhecido como Operador Abreviado, isso quer dizer que, se a condição1 atender aos critérios, não será necessário validar a condição2._
+
+~~~~java
+// ComparacaoAvancada.java
+int numero1 = 1;
+int numero2 = 1;
+
+if(numero1== 2 & numero2 ++ == 2 )
+    System.out.println("As 2 condições são verdadeiras");
+
+System.out.println("O numero 1 agora é " + numero1);
+System.out.println("O numero 2 agora é " + numero2);
+
+// Vamos mudar a linha 5 do código acima para: if(numero1== 2 && numero2 ++ == 2 )
+~~~~
+
+## Métodos
+
+<p>Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes.</p>
+
+### Critério de nomeação de Métodos
+
+<p>Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para métodos, os critérios são:</p>
+
+- Deve ser nomeado como verbo;
+- Seguir o padrão camelCase (Todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
+
+_ATENÇÃO! Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe._
+
+### Critério de definição de métodos
+
+<p>Mas, como sabemos a melhor forma, de definir os métodos das nossas classes? Para chegar à essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:</p>
+
+1. **Qual a proposta principal do método?** Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+2. **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
+
+_Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void._
+
+1. **Quais os parâmetros serão necessários para execução do método?** Os métodos às vezes precisarão de argumentos como critérios para a execução.
+2. **O método possui o risco de apresentar alguma exceção?** Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
+3. **Qual a visibilidade do método?** Avaliar se será necessário que o método seja visível a toda aplicação, somente em pacotes, através de herança ou somente a nível a própria classe.
+
+<p>Abaixo, temos um exemplo de uma classe com dois métodos e suas respectivas considerações:</p>
+
+~~~~java
+public class MyClass {
+	
+	public double somar(int num1, int num2){
+		//LOGICA - FINALIDADE DO MÉTODO
+		return ... ;
+	}
+	
+	public void imprimir(String texto){
+		//LOGICA - FINALIDADE DO MÉTODO
+		//AQUI NÃO PRECISA DO RETURN
+		//POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
+	}
+	// throws Exception : indica que o método ao ser utilizado
+	// poderá gerar uma exceção
+	public double dividir(int dividendo, int divisor) throws Exception{}
+	
+	// este método não pode ser visto por outras classes no projeto
+	private void metodoPrivado(){}
+	
+	//alguns equívocos estruturais
+	public void validar(){
+		//este método deveria retornar algum valor
+		//no caso boolean (true ou false)
+	}
+	public void calcularEnviar(){
+		//um método deve representar uma única responsabilidade
+	}
+	public void gravarCliente(String nome, String cpf, Integer telefone, ....){
+		//este método tem a finalidade de gravar
+		//informações de um cliente, por que não criar
+		//um objeto cliente e passar como parâmetro ?
+		//veja abaixo
+	}
+	public void gravarCliente(Cliente cliente){}
+	//ou
+	public void gravar(Cliente cliente){}
+}
+~~~~
+
+## Escopo
+
+<p>O escopo pode ser entendido como,o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.</p>
+A variável é criada no primeiro acesso à ela, se tornando inacessível <p>após o interpretador sair do bloco de execução, ao qual ela pertence. Portanto, esta variável não pode ser lida ou manipulada por rotinas e códigos que estão fora do seu bloco de declaração, ou seja, fora do escopo da variável.</p>
+<p>Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáveis) são declarados no corpo principal da Classe, sendo portanto, acessíveis por todos os métodos.</p>
+<p>Caso você declare uma variável DENTRO DE UM MÉTODO, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.</p>
+<p>Uma parte fundamental na elaboração de algoritmos simples ou complexos é determinar a localização do código em questão. Sem um domínio sobre escopo de códigos, seu projeto tende a conter falhas estruturais e comprometer a proposta principal da aplicação.</p>
+
+~~~~java
+public class Conta {
+	//variavel da classe conta
+	double saldo=10.0;
+	
+	public void sacar(Double valor) {
+		//variavel local de método
+		double novoSaldo = saldo - valor;
+	}
+	public void imprimirSaldo(){
+		//disponível em toda classe
+		System.out.println(saldo);
+		//somente o método sacar conhece esta variavel
+		System.out.println(novoSaldo);
+	
+	}
+	public double calcularDividaExponencial(){
+		//variável local de método
+		double valorParcela = 50.0;
+		double valorMontante = 0.0; // começando a variável com valor zero
+		for(int x=1; x<=5; x++) {//x variável de escopo de fluxo
+			//esta variável será reiniciada a cada execução for
+			double valorCalculado = valorParcela * x;
+			valorMontante = valorMontante + valorCalculado;
+		}
+		//escopo de fluxo
+		//x e valorCalculado nunca estarão disponíveis fora do for
+		
+		return valorMontante;
+	}
+}
+~~~~
+
+## Palavras reservadas
+
+<p>Palavras reservadas, são identificadores de uma linguagem que já possuem uma finalidade específica, portanto, não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.</p>
+<p>A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classificadas em grupos e escritas com letra minúscula, sendo identificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por suas finalidades.</p>
+
+Controle de pacotes
+:-----------------:
+**import**: importa pacotes ou classes para dentro do código;
+**package**: especifica a que pacote, todas as classes de um arquivo pertencem.
