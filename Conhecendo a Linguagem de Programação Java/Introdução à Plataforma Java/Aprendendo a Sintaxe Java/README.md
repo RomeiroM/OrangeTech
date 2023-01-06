@@ -439,7 +439,7 @@ expressões.
 */
 
 if(condicao1 && condicao2)
-	System.out.print("Os dois valores precisam ser verdadeiros");;
+	System.out.print("Os dois valores precisam ser verdadeiros");
 
 //Se condicao1 OU condicao2 for verdadeira, executar código.
 if(condicao1 || condicao2)
@@ -767,5 +767,5 @@ _bin: É nesta pasta que ficarão os arquivos .class, o nosso bytecode._
 
 
 ## Referências
-[As 52 palavras reservadas do Java](http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx)
+[As 52 palavras reservadas do Java](http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx) </br>
 [Java básico](https://glysns.gitbook.io/java-basico/sintaxe/documentacao)
