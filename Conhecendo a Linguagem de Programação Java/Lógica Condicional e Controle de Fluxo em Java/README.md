@@ -111,3 +111,85 @@ O-E | R
 :-: | :-:
 V | F
 F | V
+
+## Aula 3: Controle de fluxo
+
+### Conceituação
+
+<p>"São estruturas que tem a capacidade de direcionar o fluxo de execução do código"</p>
+
+**Tipos:**
+
+- Decisão: if, if-else,  if-else-if, switch e operador ternário
+- Repetição: for, whole, do while
+- Interrupção: break, continue e return
+
+### Criação
+
+**Decisão**: estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução.
+
+- Operações: if(se), switch(escolha) e operador ternário.
+
+if
+~~~~java
+if (idade > 18){
+    //código
+}
+~~~~
+
+if-else
+~~~~java
+if (aprovado){
+    //código
+} else {
+    //código
+}
+~~~~
+if-else-if
+~~~~java
+if (casado  && temFilhos){
+    //código
+} else if(casado && semFilhos){
+    //código
+}else{
+
+}
+~~~~
+
+- Operador ternário
+
+~~~~java
+condicao ? true : false;
+~~~~
+_*evitar o uso do operador ternário_
+
+- switch
+~~~~java
+switch(variavel){
+    case 1:
+        break;
+    case ...:
+        break;
+    default:
+        break;
+}
+~~~~
+
+### Boas práticas
+
+- Switch é para valores exatos e if para expressões booleanas;
+- Evitar usar o default do switch para "cases genéricos";
+- Evitar o efeito "flecha" do if's;
+- Evitar muitos if's aninhados;
+- usar a boa prática da aula 2 para diminuir o tamanho if.
+
+## Aula 04 - Blocos
+
+### Conceituação
+
+<p>É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação.</p>
+
+**Tipos**
+- Locais: dentro de métodos;
+- Estáticos: dentro de classes;
+- Instância: dentro de classes.
