@@ -1,10 +1,10 @@
-# Estruturas de Repetição e Array em Java
+# :star: Estruturas de Repetição e Array em Java
 
-_Instrutora: [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)_
+:woman: _Instrutora: [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)_
 
 Curso disponível na plataforma [DIO](https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/c8f1bd80-21dc-4aa9-b967-a7da11000851?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
-## Estrutura de Repetição
+## :arrows_counterclockwise: Estrutura de Repetição
 
 - O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes.
 - Cada repetição é chamada laço (loop) é um dos conceitos básicos da programação estruturada.
@@ -41,17 +41,17 @@ Subtrair _k_ unidades ao valor da variável | numero -= _k_ | numero = numero - 
 Multiplicar o valor da variável por _k_ | numero *= _k_ | numero = numero * _k_
 Dividir o valor da variável por _k_ | numero /= _k_ | numero = numero / _k_
 
-### Arrays
+### :1234: Arrays
 
 - Arraya é um **objeto utilizado para armazenar sequencialmente dados do mesmo tipo**.
 - Permanecem com o **mesmo tamanho depois de criados**.
 
 
-### Exercícios Resolvidos
+### :white_check_mark: Exercícios Resolvidos
 
 #### Exercícios de loop
 
-##### **Nome e Idade**
+##### :one: **Nome e Idade**
 
 <p>Faça um programa que leia conjuntos de dois valores, o primeiro representando o nome do aluno e o segundo representando a sua idade. (Pare o programa inserindo o valor 0 no campo nome)</p>
 
@@ -73,7 +73,7 @@ public static void nomeIdade(String nome, int idade){
 }
 ~~~~
 
-##### **Nota**
+##### :two: **Nota**
 
 <p>Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.</p>
 
@@ -98,7 +98,7 @@ public class Ex2_Nota {
 }
 ~~~~
 
-##### **Maior e Média**
+##### :three: **Maior e Média**
 
 <p>Faça um programa que leia 5 números e informe o  maior número e a média desses números.</p>
 
@@ -130,7 +130,7 @@ public class Ex3_MaiorEMedia {
 
 ~~~~
 
-##### **Par e Impar**
+##### :four: **Par e Impar**
 
 <p>Faça um programa que peça N números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.</p>
 
@@ -165,7 +165,7 @@ public class Ex4_ParEImpar {
 }
 ~~~~
 
-##### **Tabuada**
+##### :five: **Tabuada**
 
 <p>Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:</p>
 
@@ -193,7 +193,7 @@ public class Ex5_Tabuada {
 }
 ~~~~
 
-##### **Fatorial**
+##### :six: **Fatorial**
 
 <p>Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.</p>
 <p>Ex.: 5!= 120 (5 X 4 X 3 X 2 X 1)</p>
@@ -220,7 +220,7 @@ public class Ex6_Fatorial {
 
 #### Exercícios de array
 
-##### **Ordem Inversa**
+##### :one: **Ordem Inversa**
 <p> Crie um vetor de 6 números inteiros e mostre-os na ordem inversa.</p>
 
 **Exemplo de solução :**
@@ -244,7 +244,7 @@ public class Ex1_OrdemInversa {
 }
 ~~~~
 
-##### **Consoantes**
+##### :two: **Consoantes**
 <p> Faça um Programa que leia um vetor de 6 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.</p>
 
 **Exemplo de solução :**
@@ -286,7 +286,7 @@ public class Ex2_Consoantes {
 }
 ~~~~
 
-##### **Números Aleatórios**
+##### :three: **Números Aleatórios**
 <p> Faça um Programa que leia 20 números inteiros aleatórios (entre 0 e 100) armazene-os num vetor. Ao final mostre os números e seus sucessores.</p>
 
 **Exemplo de solução :**
@@ -319,7 +319,7 @@ public class Ex3_NumerosAleatorios {
 
 ~~~~
 
-##### **Array Multidimencional**
+##### :four: **Array Multidimencional**
 <p> Gere e imprima uma matriz M 4x4 com valores aleatórios entre 0-9.</p>
 
 **Exemplo de solução :**
