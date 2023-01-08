@@ -2,7 +2,7 @@
 
 :woman: _Instrutora: [Camila Cavalcante](https://www.linkedin.com/in/cami-la/)_
 
-Curso disponível na plataforma [DIO](https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/c8f1bd80-21dc-4aa9-b967-a7da11000851?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
+:computer: Curso disponível na plataforma [DIO](https://web.dio.me/course/estruturas-de-repeticao-e-arrays-em-java/learning/c8f1bd80-21dc-4aa9-b967-a7da11000851?back=/track/orange-tech-backend&tab=undefined&moduleId=undefined)
 
 ## :arrows_counterclockwise: Estrutura de Repetição
 
@@ -16,7 +16,7 @@ Curso disponível na plataforma [DIO](https://web.dio.me/course/estruturas-de-re
 - O comando _break_ é utilizado para terminar de forma abrupta uma repetição. 
 - Quando o comando _continue é executado, os comandos restantes da repetição são ignorados e o programa volta a testar novamente ou não_
 
-### Operadores de incremento e decremento
+### :pencil2: Operadores de incremento e decremento
 
 **Pré-Fixados:**
 
@@ -32,7 +32,7 @@ Subtrai uma unidade do valor da variável | --numero | numero = numero - 1; (ret
 Soma um ao valor da variável, retornando o valor original | numero++ | (retorne numero) numero = numero + 1; 
 Subtrai um do valor da variável, retornando o valor original | numero-- | (retorne numero) numero = numero - 1;
 
-### Operações aritméticas
+### :pencil2: Operações aritméticas
 
 **Para:** | **Use o atalho:** | **Forma original**
 :-------- | :---------------: | :----------------
@@ -49,7 +49,7 @@ Dividir o valor da variável por _k_ | numero /= _k_ | numero = numero / _k_
 
 ### :white_check_mark: Exercícios Resolvidos
 
-#### Exercícios de loop
+#### :page_with_curl: Exercícios de loop
 
 ##### :one: **Nome e Idade**
 
@@ -218,7 +218,7 @@ public class Ex6_Fatorial {
 
 ~~~~
 
-#### Exercícios de array
+#### :page_with_curl: Exercícios de array
 
 ##### :one: **Ordem Inversa**
 <p> Crie um vetor de 6 números inteiros e mostre-os na ordem inversa.</p>
