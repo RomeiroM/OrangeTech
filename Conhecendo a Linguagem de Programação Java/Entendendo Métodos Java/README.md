@@ -61,4 +61,36 @@ Criar uma aplicação que resolva as seguintes situações:
 
 ## Sobrecarga
 
+<p>"É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome."</p>
+<p>Alterar a assinatura do método:</br>Ass = nome + parâmetros</p>
+<p>Exemplos:</p>
+<p>converterParaInteiro(float f);</br>
+converterParaInteiro(double d);</br>
+converterParaInteiro(String s);</br>
+converterParaInteiro(float f, RoundType rd);</br>
+converterParaInteiro(double d, RoundType rd);</br> 
+converterParaInteiro(String s, RoundType rd);</br> 
+converterParaInteiro();</p>
+
+**Exercitando**
+
+<p>Criar uma aplicação que calcula a área dos 3 quadriláteros notáveis: quadrado, retângulo e trapézio.</br>Obs.: Use sobrecarga.</p>
+
 ## Retornos
+
+- É uma instrução de interrupção
+- Simbologia: return
+
+<p>O método executa seu retorno quando:</p>
+
+- completa todas suas instruções internas;
+- Chega a uma declaração explicita de retorno;
+- Lança uma exceção.
+
+### Considerações
+- O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+- O tipo de dado do return deve ser compatível com o do método;
+- Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
+
+### Exercitando
+<p>Recrie a aplicação que calcula a área dos 3 quadrilateros notáveis. Agora faça os métodos retornarem valores.</p>
