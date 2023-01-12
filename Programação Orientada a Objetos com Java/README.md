@@ -10,7 +10,6 @@ Curso disponível na plataforma DIO
 - Aula 3 - A estrutura
 - Aula 4 - As relações
 - Aula 5 - A Organização
-- Aula 6 - Próximos passos
 
 ## Aula 1 - Porque usar?
 
@@ -55,7 +54,7 @@ chamadas de objetos."</br>
 - Encapsulamento
 <p>"Capacidade de esconder complexidades e proteger dados."</p>
 
-### Exercitando
+#### Exercitando
 <p>Levando em consideração uma loja  on-line de livros, modele uma entidade livro.</p>
 
 ## Aula 3: A estrutura 
@@ -105,9 +104,15 @@ class Carro :
     pass
 ~~~~
 
-### Exercitando 1
+#### Exercitando 1
 Crie a classe "Carro".</br>
 Obs: use a linguagem que gosta e siga as dicas sobre como criar classes
+
+~~~~java
+class Carro {
+   
+}
+~~~~
 
 ### Atributo
 
@@ -147,12 +152,19 @@ class Carro :
     portas = 0
 ~~~~
 
-### Exercitando 2
+##### Exercitando 2
 
 Evolua o exercicio 1 e defina 3 atributos para sua classe "Carro": cor, modelo e capacidade do tanque.
 
 Obs: use a linguagem que gostar e siga as dicas sobre como criar atributos
 
+~~~~java
+class Carro {
+   String cor;
+   String modelo;
+   int capacidadeTanque;
+}
+~~~~
 ### Método
 "É uma porção de código (sub-rotina) que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações, 
 que a classe oferece. Eles são responsáveis por definir
@@ -250,6 +262,57 @@ sobre como criar métodos
 Obs: Crie métodos específicos para fornecer e
 obter os valores dos atributos(set/get),
 caso aplicável. 
+
+~~~~java
+class Carro {
+   String cor;
+   String modelo;
+   int capacidadeT;
+
+   //Construtor e Sobrecarga
+    Carro(){
+
+    }
+
+    Carro(String cor, String modelo, int capacidadeT){
+        this.cor = cor;
+        this.modelo = modelo;
+        this.capacidadeT = capacidadeT;
+    }
+   //Gets e Sets
+
+   void setCor(String cor){
+    this.cor = cor;
+   }
+
+   String setCor(){
+    return cor;
+   }
+
+    void setModelo(String modelo){
+    this.modelo = modelo;
+   }
+
+   String setModelo(){
+    return modelo;
+   }
+
+   void setCapacidadeT(int capacidadeT){
+    this.capacidadeT = capacidadeT;
+   }
+
+   int setCapacidadeT(){
+    return capacidadeT;
+   }
+
+    //Método encher o Tanque
+
+    double totalValorTanque(double valorCombustivel){
+        return capacidadeT * valorCombustivel;
+    }
+
+}
+~~~~
 
 ### Objeto
 
@@ -425,11 +488,14 @@ Obs: use a linguagem que gostar e siga as dicas sobre como criar classes.
 Java:
 ~~~~java
 interface A {
-  ...
+    void soma(String parametro);
 }
 
 class B implements A {
-  ...
+    @Override
+    public void soma(String parametro){
+        System.out.println(parametro);
+    }
 }
 ~~~~
 C#:
