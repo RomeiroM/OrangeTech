@@ -92,3 +92,19 @@ public class SingletonLazyHolder {
 ## Strategy
 
 Simplificar a variação de algoritmos para a resolução de um mesmo problema.
+
+## Spring Framework
+
+explorando algunns padrões de projetos com Spring:
+
+- **Singleton**: @Bean e @Autowired;
+- **Strategy**: @Service e @Repository;
+- **Facade**: construiremos uma API REST com o mesmoo objetivo desse padrão, abstroir a complexidade das seguintes integrações: _Spring Data JPA*_ e _ViaCEP_ (_Feign_).
+
+_*Em memória (usando o "h2")._
+
+## Referências
+
+https://viacep.com.br/
+
+https://www.jsonschema2pojo.org/
