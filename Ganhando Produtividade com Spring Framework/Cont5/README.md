@@ -99,7 +99,7 @@ explorando algunns padrões de projetos com Spring:
 
 - **Singleton**: @Bean e @Autowired;
 - **Strategy**: @Service e @Repository;
-- **Facade**: construiremos uma API REST com o mesmoo objetivo desse padrão, abstroir a complexidade das seguintes integrações: _Spring Data JPA*_ e _ViaCEP_ (_Feign_).
+- **Facade**: construiremos uma API REST com o mesmoo objetivo desse padrão, abstrair a complexidade das seguintes integrações: _Spring Data JPA*_ e _ViaCEP_ (_Feign_).
 
 _*Em memória (usando o "h2")._
 
@@ -107,7 +107,7 @@ _*Em memória (usando o "h2")._
 
 <div align="center">
   <p>Print do projeto concluído</p>
-      <img src="https://user-images.githubusercontent.com/85644789/217676824-f4da0d3a-dab5-425e-9d6a-84260c7b17b3.png" width="400px">
+      <img src="https://user-images.githubusercontent.com/85644789/217676824-f4da0d3a-dab5-425e-9d6a-84260c7b17b3.png" width="600px">
 </div>
 
 ## Referências
