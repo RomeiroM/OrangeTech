@@ -103,6 +103,13 @@ explorando algunns padrões de projetos com Spring:
 
 _*Em memória (usando o "h2")._
 
+## Saída Swagger UI
+
+<div align="center">
+  <p>Print do projeto concluído</p>
+      <img src="https://user-images.githubusercontent.com/85644789/217676824-f4da0d3a-dab5-425e-9d6a-84260c7b17b3.png" width="400px">
+</div>
+
 ## Referências
 
 https://viacep.com.br/
